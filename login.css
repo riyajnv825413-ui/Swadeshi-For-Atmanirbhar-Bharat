@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+    border: border-box ;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 90px;
+    background-color: #efeded;
+    color: black;
+    font-size: 40 px;
+    text-decoration: none;
+    align-items: centre;
+    position: relative;
+    display: flex;
+    h1{
+        text-transform: uppercase;
+        font-weight: bolder;
+    
+    }
+    h2{
+        color:rgb(211, 110, 27);
+        font-weight: normal;
+        font-style: arial;
+        display: grid;
+        place-items: center;
+        text-align: right;
+        float: right;
+        position:absolute;
+        right:0;
+        top:0;
+        font-size: larger;
+        font-weight: 800;
+
+    }
+}
+.navbar img{
+    right:0;
+    position: relative;
+    right:0%;
+    float:right;
+}
+.body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.wrapper{
+    width:30%;
+    color:#100b0b;
+    border-radius: 10px;
+    padding: 30px 40px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+.wrapper h1{
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+.wrapper input-box{
+    width:100%;
+    height:20%;
+    background:salmon;
+    margin:30px 0;
+
+
+}
+.input-box input{
+    width:100%;
+    height:100%;
+    background: transparent;
+    border:none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    font-size: 1rem;
+    color:#fff;
+    padding:20px 45px 20px 20px;
+
+}
+.input-box input::placeholder{
+    color:#fff;
+}
+.input-box i{
+    position: absolute;
+    right:20px;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+}
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    margin-top: 20px;
+    
+    
+    
+}
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+
+}
+.remember-forgot a{
+    color:#fff;
+    text-decoration: none;
+
+}
+.remember-forgot a:hover {
+    text-decoration: underline;
+
+}
+.wrapper .riya{
+    width: 96.5%;
+    height: 20%;
+    background: #ccccd5;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    font-size: 1.5rem;
+    color:#e81d1d;
+    font-weight:600;
+    margin-top: 20px;
+    margin-left: 10px;
+
+
+}
+.wrapper .register-link{
+    font-size: 1rem;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link p a {
+    color:#2727dc;
+    text-decoration: none;
+    font-weight: 600;
+
+
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
